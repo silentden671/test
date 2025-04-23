@@ -5,14 +5,14 @@ def readme():
     return f.read()
 
 setup(
-  name='myframe',
+  name='package_name_my_frame_dimonlimon',
   version='1.0.0',
   author='dimonlimon',
   author_email='dimapahtusov77@gmail.com',
-  description='this is my',
+  description='Тут мой первый фрейм',
   long_description=readme(),
   long_description_content_type='text/markdown',
-  url='home_link',
+  url='https://github.com/silentden671',
   packages=find_packages(),
   install_requires=['requests>=2.25.1'],
   classifiers=[
@@ -22,7 +22,7 @@ setup(
   ],
   keywords='example python',
   project_urls={
-    'Documentation': 'link'
+    'Documentation': 'https://github.com/silentden671'
   },
   python_requires='>=3.7'
 )
